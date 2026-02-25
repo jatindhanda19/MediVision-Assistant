@@ -6,7 +6,7 @@ This project is a **Multimodal AI Medical Assistant** that can understand both *
 
 The system simulates a simple **doctor–patient interaction**:
 
-1. The patient **speaks their medical concern**
+1.  The patient **describes symptoms using voice or text**
 2. The patient **uploads an image** (face, skin, eye, etc.)
 3. The AI analyzes the **speech + image**
 4. The AI generates a **doctor-like response**
@@ -20,6 +20,7 @@ This project demonstrates how **Multimodal Large Language Models (LLMs)** can be
 
 # 🚀 Features
 - Multimodal AI (Voice + Image input)
+- Text Input (Patient can type symptoms)
 - Speech-to-Text using **Groq Whisper API**
 - Image + Query analysis using **LLaMA multimodal model**
 - Doctor-style response generation
@@ -100,3 +101,4 @@ This project is for educational purposes only and does not replace professional 
 ## 👨‍💻 Author
 Jatin Dhanda
 AI / Machine Learning Enthusiast
+
