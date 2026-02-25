@@ -1,6 +1,9 @@
-# 🩺 Multimodal LLM Medical Assistant (Voice + Vision AI)
+# Multimodal LLM Medical Assistant (Voice + Vision AI)
 
-## 📌 Project Overview
+ **Live Demo:** https://huggingface.co/spaces/Jatin0019/MediVision-AI
+ Try the AI medical assistant directly in your browser.
+
+##  Project Overview
 
 This project is a **Multimodal AI Medical Assistant** that can understand both **voice and image inputs** from a user and respond with a **medical-style analysis in text and audio format**.
 
@@ -14,11 +17,11 @@ The system simulates a simple **doctor–patient interaction**:
 
 This project demonstrates how **Multimodal Large Language Models (LLMs)** can be used to build intelligent healthcare-style assistants.
 
-⚠️ This project is **for educational purposes only** and does **not replace professional medical advice**.
+ This project is **for educational purposes only** and does **not replace professional medical advice**.
 
 ---
 
-# 🚀 Features
+#  Features
 - Multimodal AI (Voice + Image input)
 - Text Input (Patient can type symptoms)
 - Speech-to-Text using **Groq Whisper API**
@@ -31,7 +34,7 @@ This project demonstrates how **Multimodal Large Language Models (LLMs)** can be
 
 ---
 
-# 🧠 System Workflow
+#  System Workflow
 Patient Voice → Speech to Text  
 Patient Image + Query → Multimodal LLM  
 LLM Response → Text  
@@ -40,7 +43,7 @@ Final Output → Doctor Voice Response
 
 ---
 
-# 📂 Project Structure
+#  Project Structure
 multimodal-medical-assistant
 │
 ├── app.py
@@ -52,7 +55,7 @@ multimodal-medical-assistant
 └── README.md
 ---
 
-# 📄 File Description
+# File Description
 
 ### app.py
 Main application file that runs the **Gradio interface** and connects all components together.
@@ -74,7 +77,7 @@ Handles **AI voice response**:
 - Uses ElevenLabs for high quality voice
 - Uses Google TTS as fallback
 
-# 🛠 Technologies Used
+#  Technologies Used
 Python  
 Groq API  
 Whisper Large V3  
@@ -85,20 +88,11 @@ gTTS
 SpeechRecognition  
 Pydub
 
-## 🛠 Technologies Used
-Python
-Groq API
-Whisper Large V3
-LLaMA Multimodal Model
-Gradio
-ElevenLabs
-gTTS
-SpeechRecognition
-
-## ⚠️ Disclaimer
+## Disclaimer
 This project is for educational purposes only and does not replace professional medical advice.
 
-## 👨‍💻 Author
+## Author
 Jatin Dhanda
 AI / Machine Learning Enthusiast
+
 
